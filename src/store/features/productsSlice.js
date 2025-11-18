@@ -12,7 +12,7 @@ const initialProductsState = {
 }
 
 export const fetchProducts = createAsyncThunk('products/fetchProducts', async () => {
-    const response = await fetch('/data.json')
+    const response = await fetch('/public/data.json')
     if (!response.ok) throw new Error('Məlumat alınmadı')
     return response.json()
 })
