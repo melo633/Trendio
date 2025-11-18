@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "Aurora Knit Crew Sweater",
+    "price": 42.99,
+    "description": "Lightweight cotton-blend sweater with subtle ribbed cuffs and hem for effortless layering.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/1200x/1a/a1/ec/1aa1ec5dadfb2b13b31b0116e01e377c.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 281
+    }
+  },
+  {
+    "id": 2,
+    "title": "Marigold Wrap Midi Dress",
+    "price": 58.5,
+    "description": "Flowing midi dress with adjustable waist tie and breezy sleeves for warm-day comfort.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/1200x/7b/a1/7c/7ba17cf5d72785e9ff94135cc615d4c1.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 198
+    }
+  },
+  {
+    "id": 3,
+    "title": "Lumen High-Rise Denim",
+    "price": 49.95,
+    "description": "Stretch-rich denim with tapered leg and flattering high-rise fit, finished with tonal stitching.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/1200x/3f/9e/ac/3f9eac2849303e949f991aec00b1669f.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 167
+    }
+  },
+  {
+    "id": 4,
+    "title": "Sable Quilted Bomber",
+    "price": 64.0,
+    "description": "Quilted bomber jacket featuring satin lining, secure zip pockets, and rib-knit collar.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/1200x/00/4d/82/004d82449b4d988e7986f11c37e408a7.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 143
+    }
+  },
+  {
+    "id": 5,
+    "title": "Emberline Performance Leggings",
+    "price": 39.99,
+    "description": "Moisture-wicking leggings with hidden waistband pocket and flatlock seams.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/1200x/d2/3a/0a/d23a0a72dc5218c66c9f7ac099593669.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 324
+    }
+  },
+  {
+    "id": 6,
+    "title": "Coastal Breeze Linen Shirt",
+    "price": 37.25,
+    "description": "Relaxed-fit linen button-down with rolled sleeves and curved hemline.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/736x/fb/97/d2/fb97d2aac0b4cdfca5ac806722177610.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 102
+    }
+  },
+  {
+    "id": 7,
+    "title": "Noir City Trench Coat",
+    "price": 85.0,
+    "description": "Double-breasted trench with removable belt, storm flap, and water-resistant finish.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/736x/f4/f2/e0/f4f2e06928d24e38e095251e04c3ea8b.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 256
+    }
+  },
+  {
+    "id": 8,
+    "title": "Cinder Peak Puffer Vest",
+    "price": 52.3,
+    "description": "Lightweight insulated vest with snap-front closure and fleece-lined pockets.",
+    "category": "women's clothing",
+    "image": "https://i.pinimg.com/1200x/54/b0/3a/54b03a4ab1185b16592f261f1d010838.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 119
+    }
+  },
+  {
+    "id": 9,
+    "title": "Harborline Oxford Shirt",
+    "price": 44.7,
+    "description": "Classic oxford with button-down collar and wrinkle-resistant cotton blend.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/736x/01/b7/6c/01b76ca0f6d756f75cb8fa18563e372e.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 211
+    }
+  },
+  {
+    "id": 10,
+    "title": "Granite Stretch Chinos",
+    "price": 47.99,
+    "description": "Slim-fit chinos crafted with stretch twill and reinforced seams for everyday wear.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/1200x/0c/f8/1b/0cf81baf697d74b7c086773260315d77.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 305
+    }
+  },
+  {
+    "id": 11,
+    "title": "Summit Thermal Henley",
+    "price": 34.5,
+    "description": "Three-button waffle-knit henley designed to retain warmth without bulk.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/1200x/27/0d/b4/270db45adf17fe3be69ca93b6f62ef86.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 138
+    }
+  },
+  {
+    "id": 12,
+    "title": "Nightfall Leather Jacket",
+    "price": 129.0,
+    "description": "Full-grain leather jacket with classic moto collar, zip cuffs, and satin lining.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/736x/47/41/d9/4741d9f1cae54cce200a9e5bf39af42f.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 188
+    }
+  },
+  {
+    "id": 13,
+    "title": "Trailbound Cargo Shorts",
+    "price": 36.25,
+    "description": "Ripstop cargo shorts with adjustable waistband and seven utility pockets.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/736x/e8/5e/05/e85e059608680bd61342e34e7d8704e7.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 167
+    }
+  },
+  {
+    "id": 14,
+    "title": "Auric Wool Blend Coat",
+    "price": 98.75,
+    "description": "Structured wool-blend topcoat with notch lapel and concealed button placket.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/1200x/27/eb/cb/27ebcbf941f9459c308a75e58e4d05f7.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 142
+    }
+  },
+  {
+    "id": 15,
+    "title": "Kodiak Fleece Hoodie",
+    "price": 41.1,
+    "description": "Ultra-soft fleece hoodie with kangaroo pocket and reinforced drawcord eyelets.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/736x/25/5b/4f/255b4fb9f0b4f530d716abbbaf8ba7cc.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 276
+    }
+  },
+  {
+    "id": 16,
+    "title": "Seafarer Denim Jacket",
+    "price": 59.9,
+    "description": "Stonewashed denim jacket featuring metal hardware and dual chest pockets.",
+    "category": "men's clothing",
+    "image": "https://i.pinimg.com/1200x/6b/8f/29/6b8f29eb0dcbff777bbf50a1bb35a81a.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 193
+    }
+  },
+  {
+    "id": 17,
+    "title": "Pulse ANC Wireless Headphone",
+    "price": 119.99,
+    "description": "Over-ear headphones with hybrid active noise cancellation and 35-hour battery life.",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/1200x/3b/e9/96/3be996c0e79db4e7fd133da8566d5610.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 512
+    }
+  },
+  {
+    "id": 18,
+    "title": "Vortex Smartwatch S3",
+    "price": 179.0,
+    "description": "Aluminum smartwatch with AMOLED display, GPS, and 5-day battery endurance.",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/736x/ad/cd/c6/adcdc68f390215654f83ba7102b70194.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 420
+    }
+  },
+  {
+    "id": 19,
+    "title": "Nebula True Wireless Earbuds",
+    "price": 69.5,
+    "description": "Noise-isolating earbuds with wireless charging case and dual-mic clarity.",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/736x/6a/ec/36/6aec364e91e9da625c931189c38af7e1.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 358
+    }
+  },
+  {
+    "id": 20,
+    "title": "Solace 11-inch Tablet",
+    "price": 249.95,
+    "description": "Slim metal tablet featuring 11\" IPS display, octa-core chipset, and 128GB storage.",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/1200x/81/96/0d/81960daa26c23a8bfcfeda4a89355f39.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 276
+    }
+  },
+  {
+    "id": 21,
+    "title": "Apex Mechanical Keyboard",
+    "price": 94.2,
+    "description": "Hot-swappable mechanical keyboard with RGB backlighting and PBT keycaps.",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/1200x/39/89/a8/3989a8f89f04e789348a0e8fb414121b.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 309
+    }
+  },
+  {
+    "id": 22,
+    "title": "Radiant 4K Action Camera",
+    "price": 159.8,
+    "description": "Waterproof action camera supporting 4K60 capture and advanced stabilization.",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/736x/c2/4d/c2/c24dc2618817f7d227f26fb7ec73c2dd.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 221
+    }
+  },
+  {
+    "id": 23,
+    "title": "Flux Portable Projector",
+    "price": 212.0,
+    "description": "Portable LED projector with auto-keystone, Wi-Fi casting, and 500 ANSI lumens.",
+    "category": "electronics",
+    "image": "https://i.pinimg.com/1200x/28/3b/2e/283b2e2b45107c76e6175e0daf33fc1f.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 187
+    }
+  },
+  {
+    "id": 24,
+    "title": "Opaline Teardrop Earrings",
+    "price": 56.4,
+    "description": "Sterling silver earrings featuring iridescent opal doublets and secure lever backs.",
+    "category": "jewelery",
+    "image": "https://i.pinimg.com/736x/4f/f9/c2/4ff9c2ab7390a5e4e9724e1b26138309.jpg",
+    "rating": {
+      "rate": 4.8,
+      "count": 133
+    }
+  },
+  {
+    "id": 25,
+    "title": "Solstice Layered Necklace",
+    "price": 48.75,
+    "description": "Triple-layer necklace with hammered coin, bar pendant, and delicate chain.",
+    "category": "jewelery",
+    "image": "https://i.pinimg.com/736x/0e/ac/3b/0eac3b3b52e3df89695e77f48eef7226.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 201
+    }
+  },
+  {
+    "id": 26,
+    "title": "Verdant Cuff Bracelet",
+    "price": 62.0,
+    "description": "Hand-forged brass cuff inlaid with malachite enamel and adjustable fit.",
+    "category": "jewelery",
+    "image": "https://i.pinimg.com/1200x/ce/e4/d4/cee4d4fd1acaa6d6cd66061d563bc546.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 149
+    }
+  },
+  {
+    "id": 27,
+    "title": "Polaris Signet Ring",
+    "price": 71.3,
+    "description": "Vintage-inspired signet ring cast in 14k gold vermeil with midnight enamel inlay.",
+    "category": "jewelery",
+    "image": "https://i.pinimg.com/474x/69/12/fb/6912fb45ae9fa39c2c8e021e4dbfeff2.jpg",
+    "rating": {
+      "rate": 4.6,
+      "count": 175
+    }
+  },
+  {
+    "id": 28,
+    "title": "Cascade Pearl Drop Set",
+    "price": 84.95,
+    "description": "Matching pendant and earrings featuring freshwater pearls and rhodium plating.",
+    "category": "jewelery",
+    "image": "https://i.pinimg.com/1200x/80/da/95/80da955dcc0d74e27e4537052349764a.jpg",
+    "rating": {
+      "rate": 4.7,
+      "count": 192
+    }
+  },
+  {
+    "id": 29,
+    "title": "Asteria Crystal Bangle",
+    "price": 53.6,
+    "description": "Slim bangle adorned with pavé crystals and hidden hinge clasp for easy wear.",
+    "category": "jewelery",
+    "image": "https://i.pinimg.com/736x/d1/9e/d2/d19ed2c3f1c6d1d708dc9284ed2d9650.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 164
+    }
+  },
+  {
+    "id": 30,
+    "title": "Meridian Charm Anklet",
+    "price": 37.8,
+    "description": "Gold-plated anklet featuring celestial charms and adjustable lobster clasp.",
+    "category": "jewelery",
+    "image": "https://i.pinimg.com/736x/86/19/85/861985ee57b01e5afb6973ba030ad396.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 118
+    }
+  }
+]
