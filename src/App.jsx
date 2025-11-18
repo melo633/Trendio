@@ -2,7 +2,6 @@ import React from "react";
 
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
 import ProductDetails from "./pages/ProductDetails";
 import CartPage from "./pages/CartPage";
 import About from "./pages/About";
@@ -11,6 +10,7 @@ import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Home from "./pages/Home";
 
 const App = () => (
   <Routes>

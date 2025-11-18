@@ -1,9 +1,9 @@
 import React from "react";
 
-import FiltersBar from "../components/FiltersBar";
 import ProductGrid from "../components/ProductGrid";
 import { useSelector } from "react-redux";
 import { selectProductState } from "../store/features/productsSlice";
+import FiltersBar from "../components/FilterBars";
 
 const Home = () => {
   const { items } = useSelector(selectProductState);
