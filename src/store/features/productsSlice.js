@@ -12,7 +12,7 @@ const initialProductsState = {
 }
 
 export const fetchProducts = createAsyncThunk('products/fetchProducts', async () => {
-    const response = await fetch('/public/data.json')
+    const response = await fetch('/data.json')
     if (!response.ok) throw new Error('Məlumat alınmadı')
     return response.json()
 })
@@ -63,17 +63,29 @@ const productsSlice = createSlice({
     },
 })
 
-export const { setSelectedCategory, setSearchTerm, setSortOption, clearSelectedProduct, setSelectedProductFromList } = productsSlice.actions
+export const {
+    setSelectedCategory,
+    setSearchTerm,
+    setSortOption,
+    clearSelectedProduct,
+    setSelectedProductFromList
+} = productsSlice.actions
+
 export const selectProductState = (state) => state.products
+
 export const selectFilteredProducts = createSelector(
     [selectProductState],
     ({ items, selectedCategory, searchTerm, sortOption }) => {
         const search = searchTerm.trim().toLowerCase()
         let filtered = items.filter((product) => {
             const matchesCategory = selectedCategory === 'all' || product.category === selectedCategory
-            const matchesSearch = !search || product.title.toLowerCase().includes(search) || product.description.toLowerCase().includes(search)
+            const matchesSearch =
+                !search ||
+                product.title.toLowerCase().includes(search) ||
+                product.description.toLowerCase().includes(search)
             return matchesCategory && matchesSearch
         })
+
         switch (sortOption) {
             case 'price-asc':
                 filtered = [...filtered].sort((a, b) => a.price - b.price)
@@ -85,7 +97,9 @@ export const selectFilteredProducts = createSelector(
                 filtered = [...filtered].sort((a, b) => (b.rating?.rate ?? 0) - (a.rating?.rate ?? 0))
                 break
         }
+
         return filtered
     }
 )
+
 export default productsSlice.reducer
