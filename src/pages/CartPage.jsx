@@ -80,30 +80,32 @@ const CartPage = () => {
                   <span className="text-lg font-semibold text-slate-900">
                     $ {(product.price * quantity).toFixed(2)}
                   </span>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-3 flex-wrap justify-end">
+                    <div className="flex items-center gap-2">
+                      <button
+                        onClick={() => dispatch(decrementQuantity(product.id))}
+                        className="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 hover:bg-slate-100"
+                      >
+                        −
+                      </button>
+                      <span className="w-8 text-center font-medium">
+                        {quantity}
+                      </span>
+                      <button
+                        onClick={() => dispatch(addToCart(product))}
+                        className="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 hover:bg-slate-100"
+                      >
+                        +
+                      </button>
+                    </div>
                     <button
-                      onClick={() => dispatch(decrementQuantity(product.id))}
-                      className="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 hover:bg-slate-100"
+                      onClick={() => dispatch(removeFromCart(product.id))}
+                      className="text-sm text-pink-600 hover:text-pink-700 font-medium  cursor-pointer"
                     >
-                      −
-                    </button>
-                    <span className="w-8 text-center font-medium">
-                      {quantity}
-                    </span>
-                    <button
-                      onClick={() => dispatch(addToCart(product))}
-                      className="w-8 h-8 flex items-center justify-center rounded-full border border-slate-200 hover:bg-slate-100"
-                    >
-                      +
+                      Sil
                     </button>
                   </div>
                 </div>
-                <button
-                  onClick={() => dispatch(removeFromCart(product.id))}
-                  className="text-sm text-pink-600 hover:text-pink-700 font-medium mt-2 cursor-pointer"
-                >
-                  Sil
-                </button>
               </div>
             </article>
           ))}
